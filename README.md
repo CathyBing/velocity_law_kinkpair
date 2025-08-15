@@ -1,6 +1,7 @@
 # Overview
 This repository contains scripts and data related to the study:
 “A General Functional Representation of the Average Dislocation Velocity Based on Probabilistic Cellular Automaton Simulation of the Kink-Pair Mechanism.”
+https://doi.org/10.2139/ssrn.5390857
 
 # Contents
 •	Fig1a.gif and Fig1b.gif: Full animations corresponding to the system configurations shown in Figure 1(a) and 1(b), respectively. \
