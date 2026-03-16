@@ -44,7 +44,7 @@ while Nkp_pos < NUC:
         pos_h = np.where(plane[:,pos_L]==(1-kp))[0][kp-1] #the opposite unit along that vertical line that's closest to the dislocation line
         plane[pos_h,pos_L] = kp #new kp
         if np.any(plane[-1]==1): #have reached the top    of the simulation window
-            plane = np.concatenate((plane, np.zeros((1,l),dtype=int)), axis=0) #add a new row on top of the simulation window
+            plane = np.concatenate((plane, np.zeros((1,l),dtype=int)), axis=0) #add a new row at the top    of the simulation window
         if np.any(plane[0] ==0): #have reached the bottom of the simulation window
             plane = np.concatenate((np.ones((1,l),dtype=int), plane),  axis=0) #add a new row at the bottom of the simulation window
 
